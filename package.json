@@ -14,6 +14,11 @@
     "lint": "pnpm --filter web lint",
     "typecheck": "pnpm --filter web typecheck",
     "preview": "pnpm --filter web preview",
-    "check": "pnpm -r --if-present check"
+    "check": "pnpm -r --if-present check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
   }
 }

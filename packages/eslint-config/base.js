@@ -9,5 +9,5 @@ export default defineConfig([
   globalIgnores(['dist', 'dist-ssr']),
   js.configs.recommended,
   ...tseslint.configs.recommended,
-  eslintConfigPrettier
+  eslintConfigPrettier,
 ]);
