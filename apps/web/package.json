@@ -27,6 +27,7 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.67.0",
     "vite": "^8.2.2",
-    "@frontend-engineering-system2/ts-config": "workspace:*"
+    "@frontend-engineering-system2/ts-config": "workspace:*",
+    "@frontend-engineering-system2/eslint-config": "workspace:*"
   }
 }
