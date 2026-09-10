@@ -4,9 +4,10 @@ export function MainLayout() {
   return (
     <div>
       <header>
-        <strong>frontend-engineering-system2</strong>
+        <strong>frontend-engineering-system</strong>
         <nav aria-label="Main navigation">
           <NavLink to="/">Home</NavLink>
+          <NavLink to="/users">Users</NavLink>
           <NavLink to="/settings">Settings</NavLink>
         </nav>
       </header>

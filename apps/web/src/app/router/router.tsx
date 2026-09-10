@@ -15,13 +15,21 @@ export const router = createBrowserRouter([
         Component: HomePage,
       },
       {
-        // 表示这一组子路由先经过 RequireAuth
         Component: RequireAuth,
         children: [
+          {
+            path: 'users',
+            lazy: async () => {
+              const { UserListPage } = await import('@/pages/users');
+
+              return { Component: UserListPage };
+            },
+          },
           {
             path: 'settings',
             lazy: async () => {
               const { SettingsPage } = await import('@/pages/settings');
+
               return { Component: SettingsPage };
             },
           },
