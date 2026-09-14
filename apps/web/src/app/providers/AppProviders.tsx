@@ -1,5 +1,6 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { ReactNode } from 'react';
+import { ThemeProvider } from '@/app/providers/ThemeProvider';
 
 /**
  * 全局唯一的 QueryClient 实例。
@@ -39,5 +40,9 @@ type AppProvidersProps = {
  * 使用方式：在应用根组件（如 app/layout 或入口处）用 <AppProviders> 包裹整个应用树。
  */
 export function AppProviders({ children }: AppProvidersProps) {
-  return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;
+  return (
+    <ThemeProvider>
+      <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+    </ThemeProvider>
+  );
 }
