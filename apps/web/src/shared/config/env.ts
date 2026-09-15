@@ -1,3 +1,5 @@
+import { readBoolean } from '@frontend-engineering-system2/utils';
+
 type AppEnv = 'development' | 'staging' | 'production';
 
 type EnvConfig = {
@@ -9,10 +11,6 @@ type EnvConfig = {
   isStaging: boolean;
   isProduction: boolean;
 };
-
-function readBoolean(value: 'true' | 'false') {
-  return value === 'true';
-}
 
 export const env: EnvConfig = {
   appEnv: import.meta.env.VITE_APP_ENV,

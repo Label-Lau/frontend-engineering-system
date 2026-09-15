@@ -1,0 +1,7 @@
+{
+  "extends": "@frontend-engineering-system2/ts-config/base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["src"]
+}
