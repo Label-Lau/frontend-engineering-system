@@ -1,4 +1,4 @@
-import { Card, PageTitle } from '@frontend-engineering-system2/ui';
+import { Card, PageTitle } from '@frontend-engineering-system-lyz/ui';
 
 export function HomePage() {
   return (

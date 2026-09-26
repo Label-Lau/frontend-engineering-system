@@ -1,7 +1,7 @@
 import type { Theme } from '@/app/providers/theme-context';
 import { useTheme } from '@/app/providers/useTheme';
 import { env } from '@/shared/config';
-import { Card, PageTitle, getButtonClassName } from '@frontend-engineering-system2/ui';
+import { Card, PageTitle, getButtonClassName } from '@frontend-engineering-system-lyz/ui';
 import { Link } from 'react-router';
 
 const themeOptions: Array<{

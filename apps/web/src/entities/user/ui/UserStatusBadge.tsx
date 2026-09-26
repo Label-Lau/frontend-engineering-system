@@ -1,6 +1,6 @@
 import type { UserStatus } from '../model';
 
-import { Badge } from '@frontend-engineering-system2/ui';
+import { Badge } from '@frontend-engineering-system-lyz/ui';
 
 type UserStatusBadgeProps = {
   status: UserStatus;

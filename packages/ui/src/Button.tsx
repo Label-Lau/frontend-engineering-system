@@ -1,6 +1,6 @@
 import type { ComponentPropsWithoutRef } from 'react';
 
-import { getButtonClassName, type ButtonSize, type ButtonVariant } from "./button-styles"
+import { getButtonClassName, type ButtonSize, type ButtonVariant } from './button-styles';
 
 /**
  * Button 的 props。

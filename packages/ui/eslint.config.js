@@ -1,3 +1,3 @@
-import reactConfig from '@frontend-engineering-system2/eslint-config/react';
+import reactConfig from '@frontend-engineering-system-lyz/eslint-config/react';
 
 export default reactConfig;

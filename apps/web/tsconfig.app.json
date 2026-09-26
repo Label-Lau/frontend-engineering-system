@@ -1,5 +1,5 @@
 {
-  "extends": "@frontend-engineering-system2/ts-config/react-app.json",
+  "extends": "@frontend-engineering-system-lyz/ts-config/react-app.json",
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "types": ["vite/client"],

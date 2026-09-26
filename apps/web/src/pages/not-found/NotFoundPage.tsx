@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { PageTitle } from '@frontend-engineering-system2/ui';
+import { PageTitle } from '@frontend-engineering-system-lyz/ui';
 
 export function NotFoundPage() {
   return (

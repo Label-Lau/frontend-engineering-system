@@ -66,18 +66,18 @@ pnpm install
 
 ### 共享包
 
-| 包名                                          | 路径                     | 说明                                                |
-| --------------------------------------------- | ------------------------ | --------------------------------------------------- |
-| `@frontend-engineering-system2/ui`            | `packages/ui`            | 基础组件：`Badge` / `Button` / `Card` / `PageTitle` |
-| `@frontend-engineering-system2/utils`         | `packages/utils`         | 通用工具，例如`readBoolean`                         |
-| `@frontend-engineering-system2/eslint-config` | `packages/eslint-config` | 导出`base` / `react` 配置                           |
-| `@frontend-engineering-system2/ts-config`     | `packages/ts-config`     | 导出`base` / `node` / `react-app` 配置              |
+| 包名                                             | 路径                     | 说明                                                |
+| ------------------------------------------------ | ------------------------ | --------------------------------------------------- |
+| `@frontend-engineering-system-lyz/ui`            | `packages/ui`            | 基础组件：`Badge` / `Button` / `Card` / `PageTitle` |
+| `@frontend-engineering-system-lyz/utils`         | `packages/utils`         | 通用工具，例如`readBoolean`                         |
+| `@frontend-engineering-system-lyz/eslint-config` | `packages/eslint-config` | 导出`base` / `react` 配置                           |
+| `@frontend-engineering-system-lyz/ts-config`     | `packages/ts-config`     | 导出`base` / `node` / `react-app` 配置              |
 
 应用通过 `workspace:*` 引用内部包，例如：
 
 ```json
-"@frontend-engineering-system2/ui": "workspace:*",
-"@frontend-engineering-system2/utils": "workspace:*"
+"@frontend-engineering-system-lyz/ui": "workspace:*",
+"@frontend-engineering-system-lyz/utils": "workspace:*"
 ```
 
 ## 常用命令
@@ -100,8 +100,8 @@ pnpm check            # lint + typecheck + build
 
 ```bash
 pnpm --filter web dev
-pnpm --filter @frontend-engineering-system2/ui lint
-pnpm --filter @frontend-engineering-system2/utils typecheck
+pnpm --filter @frontend-engineering-system-lyz/ui lint
+pnpm --filter @frontend-engineering-system-lyz/utils typecheck
 ```
 
 ## 环境变量（apps/web）
@@ -125,8 +125,8 @@ VITE_ENABLE_MONITORING=false
 
 ## 工程规范
 
-- **ESLint**：应用与包复用 `@frontend-engineering-system2/eslint-config`
-- **TypeScript**：复用 `@frontend-engineering-system2/ts-config`
+- **ESLint**：应用与包复用 `@frontend-engineering-system-lyz/eslint-config`
+- **TypeScript**：复用 `@frontend-engineering-system-lyz/ts-config`
 - **Prettier**：根目录统一格式化
 - **Husky**
   - `pre-commit`：跑 lint-staged（ESLint fix + Prettier）

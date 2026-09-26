@@ -26,7 +26,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@frontend-engineering-system2/utils':
+      '@frontend-engineering-system-lyz/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@tanstack/react-query':
@@ -45,13 +45,13 @@ importers:
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.9.1(jiti@2.6.1))
-      '@frontend-engineering-system2/eslint-config':
+      '@frontend-engineering-system-lyz/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@frontend-engineering-system2/ts-config':
+      '@frontend-engineering-system-lyz/ts-config':
         specifier: workspace:*
         version: link:../../packages/ts-config
-      '@frontend-engineering-system2/ui':
+      '@frontend-engineering-system-lyz/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       '@tailwindcss/vite':
@@ -94,16 +94,6 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2(@types/node@24.13.3)(jiti@2.6.1)(yaml@2.9.0)
 
-  demoTest:
-    dependencies:
-      '@frontend-engineering-system2/utils':
-        specifier: file:/Users/liuyunzhi/Desktop/渡一/架构课/工程管理实战/frontend-engineering-system/packages/utils/frontend-engineering-system2-utils-0.1.0.tgz
-        version: file:packages/utils/frontend-engineering-system2-utils-0.1.0.tgz
-    devDependencies:
-      typescript:
-        specifier: ~6.0.3
-        version: 6.0.3
-
   packages/eslint-config:
     dependencies:
       '@eslint/js':
@@ -139,10 +129,10 @@ importers:
         specifier: ^19.2.7
         version: 19.2.8(react@19.2.8)
     devDependencies:
-      '@frontend-engineering-system2/eslint-config':
+      '@frontend-engineering-system-lyz/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@frontend-engineering-system2/ts-config':
+      '@frontend-engineering-system-lyz/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       '@types/react':
@@ -160,10 +150,10 @@ importers:
 
   packages/utils:
     devDependencies:
-      '@frontend-engineering-system2/eslint-config':
+      '@frontend-engineering-system-lyz/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@frontend-engineering-system2/ts-config':
+      '@frontend-engineering-system-lyz/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       eslint:
@@ -371,10 +361,6 @@ packages:
   '@eslint/plugin-kit@0.7.2':
     resolution: {integrity: sha512-+CNAzxglkrpNf/kKywqQfk74QjtceuOE7Qm+AF8miRvPF/wmmK5+OJOgVh3AVTT3RP2mH3+FOaxlE5v72owk0A==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
-
-  '@frontend-engineering-system2/utils@file:packages/utils/frontend-engineering-system2-utils-0.1.0.tgz':
-    resolution: {integrity: sha512-Ui6twfX1PNwulGs1EHuTvPDc2SPTJ4Qfiyzsyo3Yv/+PxGU1qW6IQTaF2CGZvet3s/Qho9Tnnpja6wkpAvZ/xw==, tarball: file:packages/utils/frontend-engineering-system2-utils-0.1.0.tgz}
-    version: 0.1.0
 
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
@@ -1799,8 +1785,6 @@ snapshots:
     dependencies:
       '@eslint/core': 1.2.1
       levn: 0.4.1
-
-  '@frontend-engineering-system2/utils@file:packages/utils/frontend-engineering-system2-utils-0.1.0.tgz': {}
 
   '@humanfs/core@0.19.2':
     dependencies:

@@ -1,4 +1,4 @@
-import { readBoolean } from '@frontend-engineering-system2/utils';
+import { readBoolean } from '@frontend-engineering-system-lyz/utils';
 
 type AppEnv = 'development' | 'staging' | 'production';
 

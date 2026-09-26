@@ -1,5 +1,5 @@
 {
-  "extends": "@frontend-engineering-system2/ts-config/base.json",
+  "extends": "@frontend-engineering-system-lyz/ts-config/base.json",
   "compilerOptions": {
     "noEmit": true
   },

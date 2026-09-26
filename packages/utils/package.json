@@ -1,5 +1,5 @@
 {
-  "name": "@frontend-engineering-system2/utils",
+  "name": "@frontend-engineering-system-lyz/utils",
   "version": "0.1.0",
   "description": "Shared utility functions for frontend-engineering-system.",
   "license": "MIT",
@@ -31,8 +31,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@frontend-engineering-system2/eslint-config": "workspace:*",
-    "@frontend-engineering-system2/ts-config": "workspace:*",
+    "@frontend-engineering-system-lyz/eslint-config": "workspace:*",
+    "@frontend-engineering-system-lyz/ts-config": "workspace:*",
     "typescript": "~6.0.2",
     "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
