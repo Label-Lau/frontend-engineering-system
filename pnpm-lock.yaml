@@ -51,6 +51,9 @@ importers:
       '@frontend-engineering-system2/ts-config':
         specifier: workspace:*
         version: link:../../packages/ts-config
+      '@frontend-engineering-system2/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       '@tailwindcss/vite':
         specifier: ^4.3.3
         version: 4.3.3(vite@8.2.2(@types/node@24.13.3)(jiti@2.6.1)(yaml@2.9.0))
@@ -116,6 +119,34 @@ importers:
         version: 8.68.0(eslint@10.9.1(jiti@2.6.1))(typescript@6.0.3)
 
   packages/ts-config: {}
+
+  packages/ui:
+    dependencies:
+      react:
+        specifier: ^19.2.7
+        version: 19.2.8
+      react-dom:
+        specifier: ^19.2.7
+        version: 19.2.8(react@19.2.8)
+    devDependencies:
+      '@frontend-engineering-system2/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@frontend-engineering-system2/ts-config':
+        specifier: workspace:*
+        version: link:../ts-config
+      '@types/react':
+        specifier: ^19.2.17
+        version: 19.2.18
+      '@types/react-dom':
+        specifier: ^19.2.3
+        version: 19.2.5(@types/react@19.2.18)
+      eslint:
+        specifier: ^10.6.0
+        version: 10.9.1(jiti@2.7.0)
+      typescript:
+        specifier: ~6.0.2
+        version: 6.0.3
 
   packages/utils:
     devDependencies:

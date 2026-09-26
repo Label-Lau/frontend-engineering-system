@@ -22,6 +22,7 @@
     "@eslint/js": "^10.0.1",
     "@frontend-engineering-system2/eslint-config": "workspace:*",
     "@frontend-engineering-system2/ts-config": "workspace:*",
+    "@frontend-engineering-system2/ui": "workspace:*",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",

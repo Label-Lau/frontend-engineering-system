@@ -1,0 +1,4 @@
+{
+  "extends": "@frontend-engineering-system2/ts-config/react-app.json",
+  "include": ["src"]
+}

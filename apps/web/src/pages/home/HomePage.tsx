@@ -1,4 +1,4 @@
-import { Card, PageTitle } from '@/shared/ui';
+import { Card, PageTitle } from '@frontend-engineering-system2/ui';
 
 export function HomePage() {
   return (
