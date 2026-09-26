@@ -1,0 +1,10 @@
+{
+  "extends": "@frontend-engineering-system2/ts-config/base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}
