@@ -1,4 +1,4 @@
 {
   "extends": "@frontend-engineering-system-lyz/ts-config/react-app.json",
-  "include": ["src"]
+  "include": ["src", ".storybook/**/*"]
 }
