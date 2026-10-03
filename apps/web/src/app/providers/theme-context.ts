@@ -12,7 +12,7 @@ export type ThemeContextValue = {
 };
 
 /** 主题在 localStorage 中的存储键 */
-export const themeStorageKey = 'frontend-engineering-system2:theme';
+export const themeStorageKey = 'frontend-engineering-system:theme';
 
 /** 主题 React Context，未包裹 Provider 时值为 null */
 export const ThemeContext = createContext<ThemeContextValue | null>(null);

@@ -32,7 +32,7 @@ type ThemeProviderProps = {
  *
  * // 输出：
  * // - <html data-theme="dark">
- * // - localStorage["frontend-engineering-system2:theme"] === "dark"
+ * // - localStorage["frontend-engineering-system:theme"] === "dark"
  * // - 子组件通过 Context 读到 theme === "dark"
  * ```
  */

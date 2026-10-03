@@ -1,4 +1,4 @@
-# frontend-engineering-system2
+# frontend-engineering-system
 
 从零搭建的前端工程管理实践项目，用 pnpm Monorepo 沉淀应用、公共包与工程规范。
 
