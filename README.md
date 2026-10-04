@@ -2,6 +2,8 @@
 
 从零搭建的前端工程管理实践项目，用 pnpm Monorepo 沉淀应用、公共包与工程规范。
 
+`prj_BoNWKkFlDxQpgnQRrxQRqTKLqJRe`
+
 ## 当前状态
 
 已落地：
