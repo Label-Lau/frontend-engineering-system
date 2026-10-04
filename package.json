@@ -13,6 +13,7 @@
     "build": "pnpm --filter web build",
     "build:staging": "pnpm --filter web build:staging",
     "build:dependencies": "pnpm --filter @frontend-engineering-system-lyz/utils build && pnpm --filter @frontend-engineering-system-lyz/ui build",
+    "build:deploy": "pnpm build:dependencies && pnpm build",
     "lint": "pnpm -r --if-present run lint",
     "typecheck": "pnpm -r --if-present run typecheck",
     "format": "prettier --write .",
